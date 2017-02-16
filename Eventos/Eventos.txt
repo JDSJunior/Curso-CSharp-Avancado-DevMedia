@@ -1,0 +1,14 @@
+﻿Eventos
+*Podem ser disparados por alguma ação do usuario na aplicação ou definidos pelo
+proprio sistema;
+*Exemplos de eventos de UI: Click de um Button, texto alterado em uma TextBox;
+*Eventos definidos pelo própio sistema usam a palavr reservada event;
+*Esse event deve ser declarado como sendo de um tipo delegate;
+*Uma propriedade de um determinado objeto que seja de um tipo delegate(um evento)
+pode apontar então para um ou mais metodos;
+*Neste caso, dizemos que um evento nada mais é que um ponteiro para o método;
+*Quando um evento dispara mais de um método, ele é chamado de multi-cast event;
+*O método que manipula, ou seja, aponta para o evento, é chamado de event handler;
+*O método deve ter os mesmos parâmetros declarados na assinatura do tipo delegate;
+*Neste sentido, é muito comum confundir nomenclaturas, o que é evento, propriedade, 
+método, delegate, handler etc.
